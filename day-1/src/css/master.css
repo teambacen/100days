@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+.container{
+  display: flex;
+}
+.sidebar{
+  padding-top: 30px;
+  flex: 1;
+
+}
+.content{
+  flex: 6;
+  background-color: #F3F5F7;
+}
+h1,h2,h3,h4,h5,h6,a{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.sidebar-title{
+  color: #FF782D;
+  font-family: 'Roboto';
+  font-weight: 500;
+  text-align: center;
+}
+.sidebar-avatar{
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+.sidebar-gear{
+  color: #000;
+  background: white;
+  padding: 10px 13px 10px 13px;
+  border-radius: 100px;
+  text-align: center;
+  position: absolute;
+  margin-top: 0px !important;
+  left: 150px;
+  top: 70px;
+  box-shadow: 3px 3px 15px #888888;
+}
+.sidebar ul{
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 50px;
+}
+.sidebar li{
+  padding: 20px 0px 20px 40px;
+
+}
+.active{
+  border-left: 3px solid #FF782D;
+}
+.active i, .active a{
+  color: #344750 !important;
+}
+.sidebar li i{
+  color:  #8CA4AF;
+}
+.sidebar li a{
+  text-decoration: none;
+  color: #8CA4AF;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.img-round{
+  border-radius: 100px;
+  display: block;
+  margin: 0 auto;
+}
+.img-responsive{
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.contain{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  flex-flow: row wrap;
+
+}
+.card{
+  flex: 4;
+  margin-right: 15px;
+  margin-top: 20px;
+  background-color: #fff;
+  -webkit-box-shadow: 2px 2px 15px -2px rgba(0,0,0,0.41);
+  -moz-box-shadow: 2px 2px 15px -2px rgba(0,0,0,0.41);
+  box-shadow: 2px 2px 15px -2px rgba(0,0,0,0.41);
+  border-radius: 5px;
+}
+.card-content{
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+.card-content h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #344750;
+}
+.card-content h4{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  line-height: 30px;
+  color: #8CA4AF;
+}
+.card-footer{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-flow: row;
+}
+.card-footer .card-applicant{
+  flex:3;
+
+}
+.card-footer .card-applicant h4{
+  color:#8CA4AF;
+  font-family: 'Roboto';
+  font-weight: 100;
+}
+.card-footer .card-price{
+  flex:1;
+}
+.card-footer .card-price h4{
+  color:#8CA4AF;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
